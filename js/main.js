@@ -310,7 +310,7 @@
                     'Automatic local persistence with localStorage, plus responsive dark and light themes'
                 ],
                 tags: ['HTML5', 'CSS3', 'JavaScript', 'LocalStorage', 'Responsive Web'],
-                liveDemo: 'https://github.com/kacem001',
+                liveDemo: 'https://unigrade-beta.vercel.app/',
                 codeUrl: 'https://github.com/kacem001'
             },
             4: {
@@ -355,7 +355,7 @@
                     'Lightweight vanilla JavaScript architecture for lightning-fast loading'
                 ],
                 tags: ['HTML5', 'CSS3', 'JavaScript', 'UI/UX Design', 'Responsive Web'],
-                liveDemo: 'https://github.com/kacem001',
+                liveDemo: 'https://vibelink.ai.studio/',
                 codeUrl: 'https://github.com/kacem001'
             }
         };

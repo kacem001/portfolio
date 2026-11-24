@@ -767,9 +767,16 @@ ul {
     transform: translateY(-2px);
 }
 
+.project-links-group {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.project-icon-link,
 .project-github-link {
     color: var(--text-muted);
-    font-size: 1.35rem;
+    font-size: 1.15rem;
     transition: var(--transition-base);
     display: flex;
     align-items: center;
@@ -779,6 +786,7 @@ ul {
     border-radius: 50%;
 }
 
+.project-icon-link:hover,
 .project-github-link:hover {
     color: white;
     background: rgba(255, 255, 255, 0.08);

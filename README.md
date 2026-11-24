@@ -1,12 +1,21 @@
-# 3D Animated Portfolio Website 🚀
+# Kacem El Amine Latrach — AI Engineer & Developer Portfolio 🚀
 
-A comprehensive, fully functional, and visually stunning portfolio website featuring modern design principles, smooth 3D animations, and sophisticated interactive elements.
+Personal portfolio website for **Kacem El Amine Latrach** — AI Engineering student at Badji-Mokhtar Annaba University (Annaba, Algeria), specializing in Artificial Intelligence, Machine Learning, Biomedical NLP, Computer Vision, Web Development, and Telegram Automation Bots.
 
-![Portfolio Preview](https://img.shields.io/badge/Status-Production%20Ready-success)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![AI](https://img.shields.io/badge/Specialization-Artificial%20Intelligence-blue)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white)
+
+## ✨ Featured Projects
+- **Biomedical Named Entity Recognition**: Comparative NLP study on BC5CDR benchmark evaluating PubMedBERT (82.45% F1), BioLinkBERT, BiLSTM-CRF, and Mistral-7B, plus NeuroMed NER Flask app with Gemini Flash & OCR.
+- **Facial Recognition**: Model comparison and benchmarking of deep neural network architectures with an interactive local testing app (`app.py` + web UI).
+- **UniGrade**: Student grade calculator for Algerian universities with customizable TD/TP/Exam weights, JSON export/import, and localStorage. [Live Demo](https://unigrade-beta.vercel.app/)
+- **Morsely**: Trilingual (EN, AR, FR) Telegram bot for bidirectional Morse code conversion and crypto donations.
+- **Telegram Weather Bot**: Multilingual weather assistant powered by Open-Meteo, Nominatim, and SQLite preference persistence.
+- **VibeLink**: Modern Linktree-style website hub. [Live Demo](https://vibelink.ai.studio/)
 
 ## ✨ Features
 
