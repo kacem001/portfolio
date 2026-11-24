@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kacem El Amine Latrach - AI Engineer, Machine Learning & NLP Specialist, Web & Telegram Bot Developer based in Annaba, Algeria.">
+    <title>KACEM EL AMINE LATRACH | AI Engineer & Developer</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-circle"></div>
+                <div class="loader-circle"></div>
+                <div class="loader-circle"></div>
+            </div>
+            <p class="loading-text">Loading Experience...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>Kacem<span class="logo-bracket">/&gt;</span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles-container" id="particlesContainer"></div>
+        
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <span class="hero-name">KACEM EL AMINE LATRACH</span>
+                </h1>
+                <p class="hero-subtitle animate-text">
+                    <span class="typing-text"></span>
+                    <span class="cursor-blink">|</span>
+                </p>
+                <p class="hero-description">
+                    Computer Science Engineering student specializing in Artificial Intelligence at Badji-Mokhtar Annaba University. 
+                    Passionate about machine learning, natural language processing, computer vision, and building impactful digital systems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="floating-card card-1"></div>
+                <div class="floating-card card-2"></div>
+                <div class="floating-card card-3"></div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Personal & AI Projects</h2>
+                <p class="section-subtitle">Real-world projects combining academic AI research and practical software engineering</p>
+            </div>
+
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ai">AI & Machine Learning</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="bots">Telegram Bots</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project Card 1: Biomedical NER -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-info">
+                        <div class="project-card-header">
+                            <div class="project-icon-badge">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <span class="project-category">AI / Biomedical NLP</span>
+                        </div>
+                        <h3 class="project-title">Biomedical Named Entity Recognition</h3>
+                        <p class="project-description">
+                            Comparative NLP study on the BC5CDR benchmark evaluating PubMedBERT (82.45% F1), BioLinkBERT, BiLSTM-CRF, and Mistral-7B. Includes NeuroMed NER web app with Gemini Flash and in-browser OCR.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">PubMedBERT</span>
+                            <span class="tag">Flask</span>
+                        </div>
+                        <div class="project-card-footer">
+                            <button class="btn-card-action btn-view-project" data-project="1">
+                                <span>View Details</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <a href="https://github.com/kacem001" target="_blank" class="project-github-link" title="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2: Facial Recognition -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-info">
+                        <div class="project-card-header">
+                            <div class="project-icon-badge">
+                                <i class="fas fa-user-check"></i>
+                            </div>
+                            <span class="project-category">Computer Vision / Deep Learning</span>
+                        </div>
+                        <h3 class="project-title">Facial Recognition & Interactive App</h3>
+                        <p class="project-description">
+                            Designed, trained, and benchmarked multiple deep neural network architectures for facial recognition. Built an interactive local testing app with Python backend and web UI.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">Neural Networks</span>
+                        </div>
+                        <div class="project-card-footer">
+                            <button class="btn-card-action btn-view-project" data-project="2">
+                                <span>View Details</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <a href="https://github.com/kacem001" target="_blank" class="project-github-link" title="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3: UniGrade -->
+                <div class="project-card" data-category="web">
+                    <div class="project-info">
+                        <div class="project-card-header">
+                            <div class="project-icon-badge">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <span class="project-category">Web Application</span>
+                        </div>
+                        <h3 class="project-title">UniGrade — Student Grade Calculator</h3>
+                        <p class="project-description">
+                            Deployed responsive web application for Algerian university students to compute semester GPA from subject credits and customizable TD, TP, and Exam weights with persistent storage.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">LocalStorage</span>
+                        </div>
+                        <div class="project-card-footer">
+                            <button class="btn-card-action btn-view-project" data-project="3">
+                                <span>View Details</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <a href="https://github.com/kacem001" target="_blank" class="project-github-link" title="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 4: Morsely -->
+                <div class="project-card" data-category="bots">
+                    <div class="project-info">
+                        <div class="project-card-header">
+                            <div class="project-icon-badge">
+                                <i class="fas fa-broadcast-tower"></i>
+                            </div>
+                            <span class="project-category">Telegram Bot / Automation</span>
+                        </div>
+                        <h3 class="project-title">Morsely — Morse Code Telegram Bot</h3>
+                        <p class="project-description">
+                            Trilingual Python Telegram bot converting bidirectional text ⇄ Morse code with automatic direction detection, formatting preferences, and crypto donation options.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Telegram API</span>
+                            <span class="tag">Multilingual</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                        <div class="project-card-footer">
+                            <button class="btn-card-action btn-view-project" data-project="4">
+                                <span>View Details</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <a href="https://github.com/kacem001" target="_blank" class="project-github-link" title="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 5: Weather Bot -->
+                <div class="project-card" data-category="bots">
+                    <div class="project-info">
+                        <div class="project-card-header">
+                            <div class="project-icon-badge">
+                                <i class="fas fa-cloud-sun-rain"></i>
+                            </div>
+                            <span class="project-category">Telegram Bot / APIs</span>
+                        </div>
+                        <h3 class="project-title">Telegram Weather Assistant</h3>
+                        <p class="project-description">
+                            Multilingual weather bot providing current conditions and 3-7 day forecasts via Open-Meteo & Nominatim geocoding, scheduled morning alerts, and SQLite preference storage.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQLite</span>
+                            <span class="tag">Open-Meteo</span>
+                            <span class="tag">REST API</span>
+                        </div>
+                        <div class="project-card-footer">
+                            <button class="btn-card-action btn-view-project" data-project="5">
+                                <span>View Details</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <a href="https://github.com/kacem001" target="_blank" class="project-github-link" title="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 6: VibeLink -->
+                <div class="project-card" data-category="web">
+                    <div class="project-info">
+                        <div class="project-card-header">
+                            <div class="project-icon-badge">
+                                <i class="fas fa-link"></i>
+                            </div>
+                            <span class="project-category">Web Application</span>
+                        </div>
+                        <h3 class="project-title">VibeLink — Link-in-Bio Platform</h3>
+                        <p class="project-description">
+                            Sleek Linktree-style web application enabling creators, developers, and students to centralize, customize, and share all their essential links through a single responsive hub.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                        <div class="project-card-footer">
+                            <button class="btn-card-action btn-view-project" data-project="6">
+                                <span>View Details</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <a href="https://github.com/kacem001" target="_blank" class="project-github-link" title="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-info">
+                    <div class="modal-category" id="modalCategory"></div>
+                    <h2 class="modal-title" id="modalTitle"></h2>
+                    <p class="modal-description" id="modalDescription"></p>
+                    
+                    <div class="modal-details">
+                        <h3>Key Implementation Highlights</h3>
+                        <ul id="modalDetailsList"></ul>
+                    </div>
+                    
+                    <div class="modal-tech">
+                        <h3>Technologies Used</h3>
+                        <div class="modal-tags" id="modalTags"></div>
+                    </div>
+                    
+                    <div class="modal-links">
+                        <a href="https://github.com/kacem001" target="_blank" class="btn btn-primary modal-btn" id="modalDemoBtn">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="https://github.com/kacem001" target="_blank" class="btn btn-secondary modal-btn" id="modalCodeBtn">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Core competencies across Artificial Intelligence, Software Engineering, and Modern Web Systems</p>
+            </div>
+
+            <div class="skills-content">
+                <!-- Skills Progress Bars -->
+                <div class="skills-bars">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Python / PyTorch / Deep Learning</span>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="92"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Machine Learning (Scikit-learn, NumPy, Pandas)</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Natural Language Processing & Hugging Face</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Computer Vision (OpenCV, Deep Learning)</span>
+                            <span class="skill-percentage">82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="82"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Web & Frontend (JavaScript, HTML5, CSS3, React)</span>
+                            <span class="skill-percentage">86%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="86"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Backend & APIs (Flask, Node.js, Express, REST APIs)</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Databases (MySQL, MongoDB, SQLite, Firebase)</span>
+                            <span class="skill-percentage">84%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="84"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">No-Code & Automation (Bubble, n8n, Notion)</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technology Cards -->
+                <div class="tech-grid">
+                    <div class="tech-card" data-tooltip="Core Language for AI, NLP, and Bots">
+                        <div class="tech-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h4>Python</h4>
+                    </div>
+
+                    <div class="tech-card" data-tooltip="Deep Learning Framework">
+                        <div class="tech-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h4>PyTorch</h4>
+                    </div>
+
+                    <div class="tech-card" data-tooltip="Interactive Web & Application Development">
+                        <div class="tech-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h4>JavaScript</h4>
+                    </div>
+
+                    <div class="tech-card" data-tooltip="Lightweight Python Web Framework & APIs">
+                        <div class="tech-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h4>Flask</h4>
+                    </div>
+
+                    <div class="tech-card" data-tooltip="Computer Vision & Image Processing">
+                        <div class="tech-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h4>OpenCV</h4>
+                    </div>
+
+                    <div class="tech-card" data-tooltip="Relational & NoSQL Database Systems">
+                        <div class="tech-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4>Databases</h4>
+                    </div>
+
+                    <div class="tech-card" data-tooltip="Version Control & Collaborative Development">
+                        <div class="tech-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h4>Git & GitHub</h4>
+                    </div>
+
+                    <div class="tech-card" data-tooltip="Workflow Automation & No-Code Systems">
+                        <div class="tech-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h4>n8n & No-Code</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Bridging academic AI research and practical digital systems</p>
+            </div>
+
+            <div class="about-content">
+                <!-- Biography -->
+                <div class="about-bio">
+                    <div class="bio-image">
+                        <img src="images/anonymous-avatar.svg" alt="Anonymous Developer Avatar">
+                        <div class="bio-shape"></div>
+                    </div>
+                    <div class="bio-text">
+                        <h3>AI Engineering Student & Developer</h3>
+                        <p>
+                            I am a Computer Science Engineering student specializing in Artificial Intelligence at 
+                            Badji-Mokhtar Annaba University in Annaba, Algeria. I have a deep passion for artificial intelligence, 
+                            machine learning, natural language processing, and the development of practical digital systems that solve real-world problems.
+                        </p>
+                        <p>
+                            My experience combines academic AI research with hands-on software development, including 
+                            biomedical NLP benchmarks, facial recognition deep learning pipelines, responsive web applications, 
+                            and multilingual automation bots. I build end-to-end solutions from data curation and model fine-tuning to deployment.
+                        </p>
+                        <p>
+                            Beyond coursework, I actively participate in hackathons like NoCodeHack in Annaba, build open-source tools, 
+                            and integrate modern generative AI APIs (such as Google Gemini Flash) and transformer architectures into user-friendly applications.
+                        </p>
+                        <div class="bio-stats">
+                            <div class="stat">
+                                <div class="stat-number">6+</div>
+                                <div class="stat-label">Featured Projects</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">2022+</div>
+                                <div class="stat-label">AI Engineering Student</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">Annaba</div>
+                                <div class="stat-label">Algeria</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline -->
+                <div class="timeline">
+                    <h3 class="timeline-title">Experience & Journey</h3>
+                    
+                    <div class="timeline-items">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2026</div>
+                            <div class="timeline-content">
+                                <h4>Participant — NoCodeHack (2nd Edition)</h4>
+                                <p class="timeline-company">Annaba, Algeria</p>
+                                <p>Competed in the competitive no-code hackathon challenge, leveraging automation tools (n8n, Bubble, Notion) and API integrations to prototype solutions under rapid deadlines.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Professional Experience</div>
+                            <div class="timeline-content">
+                                <h4>Engineering Intern</h4>
+                                <p class="timeline-company">Wajeez DZ</p>
+                                <p>Completed an internship gaining practical experience in software development workflows, teamwork, and modern technological solutions in a professional environment.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2022 - Present</div>
+                            <div class="timeline-content">
+                                <h4>State Engineer Degree in Computer Science</h4>
+                                <p class="timeline-company">Badji-Mokhtar Annaba University</p>
+                                <p>Specialization in Artificial Intelligence. Intensive five-year engineering curriculum combining core computer science fundamentals with advanced study in AI, ML, NLP, and Computer Vision.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="education">
+                    <h3 class="education-title">Education & Focus Areas</h3>
+                    
+                    <div class="education-grid">
+                        <div class="education-card">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4>State Engineer Degree in Computer Science</h4>
+                            <p class="education-institution">Badji-Mokhtar Annaba University</p>
+                            <p class="education-year">2022 – Present | Annaba, Algeria</p>
+                            <p class="education-description">
+                                Specialization in Artificial Intelligence. Five-year curriculum covering Machine Learning, 
+                                Deep Learning, Computer Vision, NLP, Optimization, Software Engineering, Databases, and Cybersecurity.
+                            </p>
+                        </div>
+
+                        <div class="education-card">
+                            <div class="education-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <h4>Professional Internship</h4>
+                            <p class="education-institution">Wajeez DZ</p>
+                            <p class="education-year">Internship</p>
+                            <p class="education-description">
+                                Completed a professional internship at Wajeez DZ, gaining hands-on practical 
+                                experience in a real-world tech environment and professional workflows.
+                            </p>
+                        </div>
+
+                        <div class="education-card">
+                            <div class="education-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h4>NoCodeHack (2nd Edition, 2026)</h4>
+                            <p class="education-institution">Annaba Hackathon</p>
+                            <p class="education-year">2026</p>
+                            <p class="education-description">
+                                Participant in the no-code hackathon challenge, mastering rapid product prototyping, 
+                                workflow automation with n8n, and no-code architecture design.
+                            </p>
+                        </div>
+
+                        <div class="education-card">
+                            <div class="education-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <h4>Research Interests & Languages</h4>
+                            <p class="education-institution">AI Specializations</p>
+                            <p class="education-year">Arabic (Native) | English (Good)</p>
+                            <p class="education-description">
+                                Key research interests: Efficient AI, Biomedical NLP, Robust Machine Learning, 
+                                Computer Vision, and Knowledge Distillation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss AI projects, software development, or collaboration opportunities</p>
+            </div>
+
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+
+                        <div class="form-status"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>kacemamine900@gmail.com</p>
+                        <a href="mailto:kacemamine900@gmail.com">Send Email</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>Phone</h4>
+                        <p>+213 779 43 97 62</p>
+                        <a href="tel:+213779439762">Call Now</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Location</h4>
+                        <p>Annaba, Algeria</p>
+                        <a href="#map">View on Map</a>
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="social-links">
+                        <h4>Connect With Me</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/kacem001" target="_blank" class="social-icon" data-tooltip="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/latrach-kacem-el-amine/" target="_blank" class="social-icon" data-tooltip="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://instagram.com/kacem_la" target="_blank" class="social-icon" data-tooltip="Instagram: @kacem_la">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://t.me/kacem_la" target="_blank" class="social-icon" data-tooltip="Telegram: @kacem_la">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Map -->
+                    <div class="map-container" id="map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51141.73719013098!2d7.7126!3d36.9009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f007b8b40ef671%3A0x6b77ea7247a8f3b2!2sAnnaba%2C%20Algeria!5e0!3m2!1sen!2sdz!4v1700000000000" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">
+                        <span class="logo-bracket">&lt;</span>Kacem<span class="logo-bracket">/&gt;</span>
+                    </a>
+                    <p>Computer Science & AI Engineering | Badji-Mokhtar Annaba University</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Get In Touch</h4>
+                    <p><i class="fas fa-envelope"></i> kacemamine900@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +213 779 43 97 62</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Annaba, Algeria</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 KACEM EL AMINE LATRACH. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Three.js for 3D Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
